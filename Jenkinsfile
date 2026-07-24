@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  stages{
+  stages {
      stage('Checkout Code') {
        steps {
           git branch: 'main', url: 'https://github.com/Anupriya-t-71/Week2_miniproject.git'
